@@ -223,6 +223,13 @@ main .Policies .policy-header{
     padding: 24px 0px;
     border-top: var(--dull-white-color) 1px solid;
 }
+main .Policies .policy-header-top{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--ted-red);
+    padding: 24px 0px;
+}
 main .Policies h2{
     font-size: 21px;
     padding: 18px 0px;
@@ -234,7 +241,11 @@ main .Policies p{
 main .Policies ul,
 main .Policies ol{
     font-size: 16px;
-    padding: 16px 0 16px 10px;
+    padding: 0px 0 16px 16px;
+}
+main .Policies ul li,
+main .Policies ol li{
+    padding: 5px 0;
 }
 main .Policies a{
     text-decoration: underline;
